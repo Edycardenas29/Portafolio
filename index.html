@@ -41,7 +41,14 @@
     padding: 20px;
     color: black; /* Cambia el color del texto a negro */
     font-size: 16px; /* Cambia el tamaño del texto */
-    font-weight: bold; /* Cambia el peso de la fuente a negrita */
+    max-width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    }
+
+    section ul {
+    margin-top: 20px; /* Espacio entre la descripción y los enlaces */
     }
 
     h2 {
@@ -64,6 +71,17 @@
     margin-bottom: 5px;
     }
 
+    .horizontal-list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    }
+
+.horizontal-list li {
+  margin: 0 10px;
+}
+
     footer {
     background-color: #FFD8D8;
     padding: 20px;
@@ -74,22 +92,20 @@
 </head>
 <body>
   <header>
+    <section>
     <img src="https://lh3.googleusercontent.com/pw/AJFCJaU6qmucZc6L0_ZnHAnPwI2D6wvgf4kObe9NYUo-QRop-ckNnR_mlPFX-x5ADxxmQlhc_Iz4b1VFHd7mPNg6884ZE8wOEhJmhPqxnPyPG9mec-6ruqm25hwWndFQ5DA9Nn14rjjmfB6gvu_zEma0LIbXPBDRhDxSsWHiDAR-Cxl99X62GqPTGreBhZbl62Ttrv2zICW4zA4KsyaDjDYY3JI-vwkSvVO3HabIqiisf7KP6B70qfyp0LKO5y-xg6OIK9Uy-UhLtr0yDnm0elibMVMwsZevYsbiWDhK4GQpIMmQVnjSTdgMPdyGjIoPtC100XbW2-iIHIEt5a6tNh5ZzCiKuZTLKJI5UyftqVWNP5sOZpMP_lULN6z0gHJ0qLpx3Zv18Har9OhPMG9qmwlwDM2L_rfrl0Cn9zgx_JBMjsEr8QyAQQlT3hmkXyMqD4jq_eCr7n3YREhfOgTp681WnHUeRJvpffOzz1Dl3z_LbXijlnBeeYPxzQCofnz_FTLL7L-VtZDSx0H3uS24Vwg9yRWSBTYUc_UQzTlb6rhj_KXhjjb6kvc3tnJepq3Js0ssNIoaDlpyizB3AmDK-tT1D3BAoVaWjdBTu_CDi-4o-MgE4-qhiV4NsdBBG1tmHLu-NQOFryz7hNceF9oiV4Esvmd_NVypieH98NTKdhPxyn5Q929U_nURS8Aa5kiEItJaLsdCezoxwINiaJxYd2E0g1Ssagx2iFQbDuO3xsaOVTmtzQpyDq8erhy3g49hb2laZ4WdEAUgh-k2MfA2Aj71b6Pif0LRsafm_YvIF1eAibJIP1Fj2obmUlOT_kQ-bfjMlHO-4H5uZ83EKkAxBLNm1sjWIAHHfzXJ5Rzdp7nyT4Kppq5tGBHGVdpLFgsXx-aZmweKWsqQWAXZoHLsrzasJOccfjuxWV4BxafaRqGHF9EBjY8jnk_2ltDK59vgBa4V1jbGPgqGvO26F_dzK3owQEtG_VkFZaCyiL_EaHX5X5Zsmjx6USXyWmIP2rs_oygMAigejhmH3H6npMFmlLFD-JKZLIEC43KrNION7orUdiNv7Fph33OnwJG3a23LGcHops6yrtsx=w1190-h893-s-no?authuser=0" alt="">
     <h1>Edy Cardenas</h1>
     <p>Apasionada emprendedora de tecnología</p>
-  </header>
-
-  <section>
     <h2>Sobre mí</h2>
     <p>Soy una estudiante de desarrollo de software con habilidades en HTML, CSS, Python y Ruby. Me apasiona la tecnología y ayudar a emprendimientos digitales a alcanzar sus metas.</p>
-    <h2>Redes sociales</h2>
-    <ul>
+    <ul class="horizontal-list">
         <li><a href="https://www.facebook.com">facebook</a></li>
         <li><a href="https://www.twitter.com" >twitter</a></li>
         <li><a href="https://www.instagram.com">instagram</a></li>
         <li><a href="https://www.linkedin.com">linkedin</a></li>
       </ul>
   </section>
+</header>
 
   <section>
     <h2>Experiencia</h2>
@@ -123,4 +139,3 @@
   </footer>
 </body>
 </html>
-
